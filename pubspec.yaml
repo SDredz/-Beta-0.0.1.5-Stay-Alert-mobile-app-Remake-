@@ -1,0 +1,42 @@
+name: stay_alert_remake_2
+description: A remake of the Jamaican Stay Alert App
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  shared_preferences: ^2.0.7
+  after_layout: ^1.1.0
+
+  carousel_slider: ^4.0.0
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/logo-8.png
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - assets/
+    - images/article0.jpg
+
+  fonts:
+      - family: MyFlutterApp
+        fonts:
+         - asset: fonts/MyFlutterApp.ttf
