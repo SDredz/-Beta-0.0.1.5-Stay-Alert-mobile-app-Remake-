@@ -1,6 +1,6 @@
 # stay_alert_remake_2
 
-A remake of the Jamaican Stay Alert App
+A Flutter remake of the Jamaican Stay Alert App
 
 ## Getting Started
 
